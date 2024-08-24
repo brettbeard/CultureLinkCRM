@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../../Modules/CrmDB/ContactAddress/ContactAddressPage.ts"],
+  "sourcesContent": ["import { initFullHeightGridPage } from '@serenity-is/corelib';\r\nimport { ContactAddressEditor } from './ContactAddressEditor';\r\n\r\nexport default function pageInit() {\n    initFullHeightGridPage(new ContactAddressEditor($('#GridDiv')).element);\n}"],
+  "mappings": "4HAAA,IAAAA,EAAuC,SAGxB,SAARC,GAA4B,IAC/B,0BAAuB,IAAIC,EAAqB,EAAE,UAAU,CAAC,EAAE,OAAO,CAC1E,CAFwBC,EAAAF,EAAA",
+  "names": ["import_corelib", "pageInit", "ContactAddressEditor", "__name"]
+}
